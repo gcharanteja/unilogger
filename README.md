@@ -4,5 +4,5 @@ uv venv
 
 activate
 
-uv add --editable ./sdkset
+uv add --editable ./unilogger
 # unilogger
