@@ -13,6 +13,17 @@ if ! command -v az &> /dev/null; then
     exit 1
 fi
 
+# Download the ARM template from GitHub
+echo "Downloading ARM template..."
+curl -sL https://raw.githubusercontent.com/gcharanteja/unilogger/main/main1.json -o main1.json
+
+if [ ! -f "main1.json" ]; then
+    echo "Error: Failed to download main1.json"
+    exit 1
+fi
+
+echo "ARM template downloaded successfully."
+
 # Login to Azure (optional, depending on your environment)
 # Uncomment the next line if you need to login
 # az login
