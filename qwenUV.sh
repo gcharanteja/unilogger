@@ -5,7 +5,7 @@
 set -e  # Exit immediately if a command exits with a non-zero status
 
 echo "Updating system packages..."
-sudo apt update && sudo apt upgrade -y
+sudo apt update && sudo apt upgrade -y && sudo apt install btop -y
 
 echo "Setting up Node.js and @qwen-code/qwen-code..."
 
