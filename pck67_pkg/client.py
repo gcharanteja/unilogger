@@ -5,7 +5,7 @@ from .run import Run
 class TrackingClient:
     """SDK Client for trackingMaster API"""
     
-    def __init__(self, api_key: str, base_url: str = "http://localhost:8000"):
+    def __init__(self, api_key: str, base_url: str = "https://mainapi-trackingv2.onrender.com"):
         """
         Initialize TrackingClient
         
