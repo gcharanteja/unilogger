@@ -104,3 +104,9 @@ echo "- Python environment with ML/AI packages is ready"
 echo ""
 echo "To activate the Python virtual environment in the future, run: source .venv/bin/activate"
 echo "To start Jupyter notebook, run: jupyter notebook"
+
+echo 'export PATH="$HOME/.npm-global/bin:$PATH"' >> ~/.bashrc
+
+source ~/.bashrc
+
+
