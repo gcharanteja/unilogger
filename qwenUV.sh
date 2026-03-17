@@ -85,14 +85,7 @@ echo "Adding ML/AI packages..."
 # Add the requested ML/AI packages
 uv add datasets torch transformers tqdm
 
-# Add additional commonly used ML/AI packages
-uv add numpy pandas scikit-learn matplotlib seaborn jupyter notebook ipykernel
 
-# Add deep learning related packages
-uv add tensorflow accelerate
-
-# Add utilities for machine learning experiments
-uv add wandb tensorboard
 
 echo "Python packages added successfully!"
 
